@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-noembed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get any video or iframe card supported by https://noembed.com/#supported-sites. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)",
   "main": "index.js",
   "engines": {
