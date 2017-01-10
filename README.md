@@ -2,7 +2,7 @@
 
 Get any video or iframe card supported by [Noembed](https://noembed.com/#supported-sites). (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)
 
-If the sites you need to embed are not supported by Noembed, you can try [gitbook-plugin-iframely]. They claim to support 1,800+ sites but you need at least a free account to get an API key.
+*If the sites you need to embed are not supported by Noembed, you can try [gitbook-plugin-iframely](https://github.com/1cgonza/gitbook-plugin-iframely). They claim to support 1,800+ sites but you need at least a free account to get an API key.*
 
 ## Installation
 Add "noembed" to your plugins in `book.json`.
