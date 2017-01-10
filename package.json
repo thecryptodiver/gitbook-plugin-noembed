@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-noembed",
+  "version": "0.0.1",
+  "description": "Get any video or iframe card supported by https://noembed.com/#supported-sites. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">2.0.0"
+  },
+  "author": "Juan Camilo Gonzalez <info@juancgonzalez.com> (http://juancgonzalez.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1cgonza/gitbook-plugin-noembed.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "videos",
+    "oembed",
+    "iframe",
+    "noembed",
+    "vimeo",
+    "youtube",
+    "instagram",
+    "facebook"
+  ]
+}
