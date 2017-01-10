@@ -18,7 +18,7 @@ Add "noembed" to your plugins in `book.json`.
 - Make sure you wrap your URL around single or double quotes.
 
 ```md
-{{ 'https://vimeo.com/31942602' | iframely }}
+{{ 'https://vimeo.com/31942602' | noembed }}
 
 or
 
