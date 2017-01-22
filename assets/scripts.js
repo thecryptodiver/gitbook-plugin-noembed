@@ -1,4 +1,4 @@
-(function() {
+function renderNoembed(event) {
   var iframes         = document.querySelectorAll('.noembed-wrapper');
   var loaded          = 0;
   var total           = iframes.length;
@@ -86,4 +86,8 @@
 
     getVideoData(url, wrapper);
   }
-})();
+}
+
+require(['gitbook'], function(gitbook) {
+  gitbook.events.on('page.change', renderNoembed);
+});
