@@ -1,4 +1,5 @@
 function renderNoembed(event) {
+  console.log("file: scripts.js ~ line 2 ~ renderNoembed ~ event", event);
   var iframes         = document.querySelectorAll('.noembed-wrapper');
   var loaded          = 0;
   var total           = iframes.length;
@@ -82,7 +83,9 @@ function renderNoembed(event) {
 
   for (var i = 0; i < iframes.length; i++) {
     var wrapper = iframes[i];
+    console.log("file: scripts.js ~ line 86 ~ renderNoembed ~ wrapper", i, wrapper);
     var url     = wrapper.dataset.url;
+    console.log("file: scripts.js ~ line 88 ~ renderNoembed ~ url", url);
 
     getVideoData(url, wrapper);
   }
