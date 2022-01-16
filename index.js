@@ -2,10 +2,10 @@ const axios = require('axios');
 
 async function noembed(url) {
   console.log("file: index.js ~ line 2 ~ noembed ~ url", url);
-  var endpoint = '//noembed.com/embed?';
+  var endpoint = 'https://noembed.com/embed?';
 
   if (!!url.length) {
-    endpoint += 'url=' + encodeURIComponent(url);
+    endpoint += 'url=' + url;
     return axios.get(endpoint)
       .then(function (response) {
         console.log(JSON.stringify(response));
