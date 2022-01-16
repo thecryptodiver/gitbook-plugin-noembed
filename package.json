@@ -23,14 +23,5 @@
     "youtube",
     "instagram",
     "facebook"
-  ],
-  "gitbook": {
-    "properties": {
-      "thecryptodiver-embed": {
-        "type": "string",
-        "default": "it's the default value",
-        "description": "It defines my awesome config!"
-      }
-    }
-  }
+  ]
 }
