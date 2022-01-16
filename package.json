@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-thecryptodiver-embed",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Get any video or iframe card supported by https://noembed.com/#supported-sites. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)",
   "main": "index.js",
   "engines": {
