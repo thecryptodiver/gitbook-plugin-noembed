@@ -18,7 +18,6 @@ module.exports = {
     css: ['style.css']
   },
   filters: {
-    noembed: noembed,
-    video: noembed,
+    embed: noembed
   }
 };
