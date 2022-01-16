@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-thecryptodiver-embed",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Get any video or iframe card supported by https://noembed.com/#supported-sites. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)",
   "main": "index.js",
   "engines": {
@@ -29,8 +29,8 @@
       "thecryptodiver-embed": {
         "type": "string",
         "default": "it's the default value",
-        "description": "It defines my awesome config!" 
-      } 
-    } 
+        "description": "It defines my awesome config!"
+      }
+    }
   }
 }
